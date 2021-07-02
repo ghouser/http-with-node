@@ -16,3 +16,5 @@ const request = http.get(
 request.on('error', (err) => {
   console.error(err);
 });
+
+request.end();
